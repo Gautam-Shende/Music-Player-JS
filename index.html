@@ -1,0 +1,71 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Music Player app Javascript</title>
+          <link rel="stylesheet" href="style.css">
+        <body>
+          
+          <div class="wrapper">
+            <header>
+              <button class="hdbtn">
+                <ion-icon name="play-back-circle-outline"></ion-icon>
+              </button>
+              <h3 class="p-now">Playing now</h3>
+              <button class="hdbtn">
+                <ion-icon name="reorder-three-outline"></ion-icon>
+              </button>
+            </header>
+        
+            <div class="player">
+              <img src="img/dragon.jpg" alt="">
+            </div>
+             
+            <div class="song-deails">
+              <h1 class="name">Enemy</h1>
+              <h3 class="artist">Imagin Dragon </h3>
+            </div>
+             
+            <div class="audioC">
+              <div class="song-timer">
+                <span class="current-time">0:00</span>
+                <span class="max-duration">0:00</span>
+              </div>
+              <div class="input1">
+                  <input type="range" id="range">
+                </div>
+              <div class="progress-area">
+                <div class="progrss-bar">
+                  <audio  id="main-audio" src="song/Imagine_Dragons_&_JID_-_Enemy_(Lyrics)_oh_the_misery_everybody_wants_to_be_my_enemy(48k).mp3"></audio>
+                </div>
+              </div>
+        
+            </div>
+             
+            <div class="controls">
+              <button class="btnC" id="prev">
+                <ion-icon name="play-back-circle-outline"></ion-icon>
+              </button>
+              <button class="play-pause btnC" >
+                <ion-icon name="play-circle-outline"></ion-icon>
+              </button>
+              <button class="btnC" id="next">
+                <ion-icon name="play-forward-circle-outline"></ion-icon>
+              </button>
+            </div>
+             
+        
+        
+          </div>
+        
+        
+          <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        
+        
+          <script src="app.js"></script>
+        
+        
+          
